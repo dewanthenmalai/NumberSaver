@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "NumberSaver",
+	"version": "1.0",
+	
+	"description": "Saves numbers from that site to a file to be restored later",
+	"homepage_url": "https://github.com/dewanthenmalai/NumberSaver",
+	
+	"permissions": [
+		"tabs"
+	],
+	
+	"browser_action": {
+		"default_title": "Number Saver",
+		"default_popup": "popup/saver_popup.html"
+	}
+}
